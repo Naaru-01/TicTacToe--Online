@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TicTacToeApp</string>
+    <string name="score">SCORE</string>
+    <string name="reset">Reset</string>
+    <string name="you_0">YOU : 0</string>
+    <string name="opponent_0">OPPONENT : 0</string>
+    <string name="title_activity_rules">ScrollingActivity</string>
+    <string name="Rules">
+       \tRule For Winning Game  : \n\tPlayer Who Will Earn Greater ThanOr Equal To 100 Points Will Be Considered As Winner.
+        \n\n Procedure For Online
+        Playing : \n\n\t Step 1 : \n\n\tFirst  You Have to Create A Unique Game ID .
+        The Unique Game ID   Is Already There, You Can Use That ID . You Can Use Your Own Also , But It Should Be Unique.
+        Remember That, ID Should Be Unique From All The Users . You Should Enter Guided ID , To Avoid Any Inconsistency .
+        \n\nStep 2: \n\n\tAfter You Got Unique ID, Then You Register That ID On our Server .
+        Thus, Your Side Game Will Be Started .\n
+      \nStep 3: \n\nThen Share Game ID With Your Opponent And Ask Him/Her To Put That ID In ID Box And Click On Join. \n\n\n
+        Now You Can Play As Many Of Games As You Want . If You Move Back From Online Screen Your Progress Will Be Lost And You Have To Regenererate Another Game ID .
+"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

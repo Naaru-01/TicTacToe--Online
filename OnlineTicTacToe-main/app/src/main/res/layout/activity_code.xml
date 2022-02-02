@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CodeActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewOnline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3887706176304341/9099298695" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:layout_marginBottom="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  MULTIPLAYER MODE "
+        android:textSize="25dp"
+
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+
+        android:id="@+id/unique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="MODE : ONLINE"
+        android:textColor="#673ab7"
+        android:textSize="15sp"
+        android:textAllCaps="false"/>
+
+    <EditText
+
+        android:id="@+id/GameCode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:autoSizeMinTextSize="7sp"
+        android:autoSizeMaxTextSize="7sp"
+        android:hint="Create or Enter Game-ID" />
+
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#B2BCF8"
+        android:text="  Register And Start   " />
+
+    <Button
+        android:id="@+id/Join"
+        android:layout_width="150dp"
+        android:background="#B2BCF8"
+        android:layout_height="wrap_content"
+        android:text=" Join"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+</LinearLayout>

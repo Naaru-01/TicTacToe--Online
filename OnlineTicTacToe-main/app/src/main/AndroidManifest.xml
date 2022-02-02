@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tac.tictactoeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:configChanges="orientation|screenSize"
+        android:icon="@mipmap/tic"
+        android:label="TicTacToe"
+        android:roundIcon="@mipmap/tic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".rules"
+            android:label="@string/title_activity_rules"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <!-- INSIDE ACTIVITY: android:label="name of the lable  want to see on the respective activity name " -->
+        <activity
+            android:name=".CodeActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ThirdPage"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SecondPage"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Firstpage"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Google AdMob  Step 3 : Add Google MetaData -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3887706176304341~2740768315" />
+    </application>
+
+</manifest>
